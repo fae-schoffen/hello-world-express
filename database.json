@@ -1,0 +1,10 @@
+{
+    "dev": {
+        "driver": "pg",
+        "user": "projetosimples",
+        "password": "senha123",
+        "host": "localhost",
+        "database": "data"
+    },
+    "sql.file": true
+}
