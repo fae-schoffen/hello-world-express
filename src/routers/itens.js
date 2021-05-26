@@ -28,11 +28,11 @@ const Itens = sequelize.define('itens', {
     }
 });
 
-router.get('', async (req, res) => {
+router.get('/', async (req, res) => {
     return res.json(await Itens.findAll())
 });
 
-router.post('', (req, res) => {
+router.post('/', (req, res) => {
     const item = req.body;
     const resp = Itens.create(item);
     res.json(resp);

@@ -1,4 +1,4 @@
-create table itens{
+create table itens(
     id serial primary key,
 
     created_at timestamp DEFAULT NOW(),
@@ -8,4 +8,4 @@ create table itens{
     codigo text not null,
     descricao text not null,
     ativo boolean not null
-};
+);

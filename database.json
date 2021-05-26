@@ -6,5 +6,5 @@
         "host": "localhost",
         "database": "data"
     },
-    "sql.file": true
+    "sql-file": true
 }
